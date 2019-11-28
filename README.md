@@ -8,3 +8,10 @@
 テスト
 GITHUBテスト
 見えてますかー？
+
+山内さん…
+GITHUB繋いだら、bitbucketと繋がらなくなるってことはありますか…？
+ソースツリーのリモート一覧の方には、
+「Bitbucket」と「GitHub」それぞれの一覧は出ているのですが
+Bitbucketの方にtest_team_practiceのクローンだけ表示されなくなってしまいました…
+GitHubには全部出てるのですが…
