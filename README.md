@@ -8,4 +8,4 @@ Markdown自体は昔からあるものなので、エディタやメモツール
   
 [MarkDown記法の書き方](https://catalpa.osdn.jp/markdown.html)  
   
-
+<p style="font-size: 24px;font-weight: bold; color: #ff0">インラインのSTYLEつけてHTMLもかけます！</p>
