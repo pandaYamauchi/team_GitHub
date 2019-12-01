@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>TEST Bitbucket</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script defer src="../js/my.js"></script>
+
+</head>
+
+<body>
+
+
+    <section>
+        <h2>ファイル一応bitbucketのやつをまんまもってきました。</h2>
+        <div id="box_practice">
+            <p>
+                適当にいじってください！
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Git flowの初期化について</h2>
+        <div id="box_practice">
+            <p>git flowでリポジトリ初期化できなくなった。</p>
+            <p>対象リポジトリ（階層）でgit flow init -fを実行しましょう。</p>
+            <p>そもそもmasterブランチがないと初期化できないので注意しましょう！</p>
+        </div>
+    </section>
+    
+    <section>
+        <h2>コンフリクト</h2>
+        <div id="box_practice">
+            コンフリクトについては<br>
+            <a href="https://tonari-it.com/git-sourcetree-conflict/">https://tonari-it.com/git-sourcetree-conflict/</a><br>
+            <br>
+            P4Merge - 色々とMergeToolがあるみたいですが、とりあえず僕はこいつを使ってます。<br>
+            <a href="https://blog.maromaro.co.jp/archives/5615">https://blog.maromaro.co.jp/archives/5615</a><br>
+            <a href="https://blog.stedplay.com/how-to-use-sourcetree-with-p4merge">https://blog.stedplay.com/how-to-use-sourcetree-with-p4merge/</a><br>
+            <br>
+            自分でコンフリクトを起こす場合は、ローカルのFeatureでファイルを編集しコミット。<br>
+            Featureは残したまま、Developにチェックアウトし同じファイルを編集。<br>
+            その後、Fertureを終了すると、競合が発生します。
+        </div>
+    </section>
+
+    <section>
+        <h2>スタッシュ練習</h2>
+
+        <div id="box_practice">
+            スタッシュについては、コミットする前に一時退避することができるということなので、便利ですが多分皆さんが思っているような機能じゃないみたいです。<br>
+            僕も勘違いしてました。<br>
+            <br>
+            結局コンフリクトを起こさないように、やっぱり同時に作業をするというのは極力回避するということに変わりなさそうです。
+            参照：<a href="https://blog.stedplay.com/how-to-use-sourcetree-with-p4merge">https://alaki.co.jp/blog/?p=2279
+            </a><br>
+            <br>
+            となるとStashってうちの案件だと微妙かもですね・・・
+        </div>
+    </section>
+
+
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	font-size: 12px;/* 変更 */
+	/*font-family: Garamond , "Times New Roman", "游明朝" , "Yu Mincho" , "游明朝体" , "YuMincho" , "ヒラギノ明朝 Pro W3" , "Hiragino Mincho Pro" , "HiraMinProN-W3" , "HGS明朝E" , "ＭＳ Ｐ明朝" , "MS PMincho" , serif;*/
+	font-family:  "Helvetica Neue" , Helvetica , Arial , Roboto, "Droid Sans", "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+	line-height: 1.8;/* 変更 */
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+}
+article,aside,details,figcaption,figure, footer,header,hgroup,menu,nav,section,main {
+	display: block;
+}
+h1, h2, h3, h4, h5, h6, strong, th{
+	font-weight: normal;
+}
+ol,ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	content: none;
+}
+a{
+	margin: 0;
+	padding: 0;
+	font-size: 100%; vertical-align: baseline; background: transparent; text-decoration: none;
+}
+/*android版クローム　フォントサイズが大きくなる不具合対策*/
+p {
+	max-height: 999999px;
+}
+ins {
+	background-color: #ff9;/* 変更 */
+	color: #000;/* 変更 */
+	text-decoration: none;
+}
+mark {
+	background-color: #ff9;/* 変更 */
+	color: #000;/* 変更 */
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+img {
+	vertical-align: bottom;
+}
+/* form */
+input, select {
+	vertical-align: middle;
+}
+/* float解除 */
+header:after,footer:after,section:after,article:after,aside:after,main:after,div:after,dl:after,ul:after,ol:after,li:after {
+		display: block;
+		clear: both;
+		height: 0;
+		content: "";
+}
+/****************************************
+ common (共通スタイル)
+****************************************/
+body {
+	font-size: 16px;
+	padding: 24px 0 80vh 0;
+}
+header {
+	margin: 0 auto;
+	padding: 32px 0;
+	width: 72%;
+	max-width: 750px;
+}
+header h1 {
+	font-size: 24px;
+	color: #0a51ec;
+}
+
+section {
+	margin: 0 auto 56px;
+	padding: 32px 0;
+	width: 72%;
+	max-width: 750px;
+}
+section h2 {
+	font-size: 24px;
+	color: #356ee9;
+}
+
+#box_practice {
+	border: 1px solid rgb(218, 218, 218);
+	box-sizing: border-box;
+	padding: 24px 16px;
+}
+
+#box_practice .test_text {
+	font-size: 24px;
+	color: rgb(133, 56, 56);
+}
+
+.txt_red {
+	color: rgb(255, 0, 0);
+}
+
+.box {
+	border: 1px solid rgb(218, 218, 218);
+	box-sizing: border-box;
+	padding: 24px 16px;
+	margin-bottom: 10px;
+}
+.box {
+	border: 1px solid rgb(218, 218, 218);
+	box-sizing: border-box;
+	padding: 24px 16px;
+	margin-bottom: 10px;
+}
+.box_02{
+	font-size:30px;
+}
